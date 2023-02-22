@@ -1,0 +1,67 @@
+/* Eléments principaux de la page */
+
+section
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: rgb(58,168,185);
+}
+
+/* header */
+
+.image{
+    height: 100%;
+    margin-left: 5px;
+    border-radius: 15px;    
+    box-shadow: 0px 4px 4px #1c1a19;  
+}
+
+/* main */
+
+main{
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px #1c1a19;
+    background-color: white;
+   
+}
+
+.text{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 5px;
+}
+
+h1{
+    padding-top: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+a{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
