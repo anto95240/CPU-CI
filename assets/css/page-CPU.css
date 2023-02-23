@@ -7,6 +7,10 @@ section {
 
 /* Header */
 
+.header {
+  display: flex;
+}
+
 .image {
   width: 1495px;
   height: 100%;
@@ -18,6 +22,17 @@ section {
 #background {
   display: flex;
   margin-bottom: 50px;
+}
+
+.returnpage a {
+  font-size: 17px;
+  margin-left: 15px;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+}
+.returnpage a:hover {
+  border-bottom: 3px solid #ffffff;
 }
 
 /*Navigation*/
