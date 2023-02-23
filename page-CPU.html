@@ -1,134 +1,323 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="./assets/css/page-CPU.css" />
-        <title>Spécialité NSI</title>
-    </head>
-	<body>
-        
-		<header>
-            <img class="image" src="./assets/image/banniere_nsi_mini.jpg" alt="nsi";/>
-		</header>  
-			
-            <div class="container">
-				<div class="nav">
-						<h1 class="title">Sommaire<br /></h1>
-						<a class="sommaire" href="#L'histoire">-L'histoire</a><br />
-						<a class="sommaire" href="#Le rôle">-Le rôle</a><br />
-						<a class="sommaire" href="#La localisation du CPU">-La localisation du CPU</a><br />
-						<a class="sommaire" href="#La composition">-La composition</a><br />
-						<a class="sommaire" href="#La classification du CPU">-La classification du CPU</a><br />
-						<a class="sommaire" href="#Les opération du processeurs">-Les opération du processeurs</a><br />
-						<a class="sommaire" href="#La vitesse du CPU">-La vitesse du CPU</a><br />
-					</div>
-					<div class="article">					
-				    <h1> II- Qu'est ce qu'un CPU ? </h1>
-					<p> Un CPU (en anglais : Central Processing Unit, en fraçais : Unité Centrale de Traitement, UCT) ou processeur est un composant présent dans beaucoup de dispositifs électronique qui exécute les insructions machine des programmes informatiques. Avec la mémoire, c'est notamment l'une des fonctions qui existent depuis les premiers ordinateurs. Un processeur construit en un seul circuit intégré est un microprocesseur.
-					<h2 id="L'histoire">L'histoire </h2>
-					<p> Les premiers processeurs devait avoir une espace important, puisqu'ils étaient construits à la base de tubes électronique (aussi appelé tube à vide ou alors lampe, est un composant électronique actif, en générale utilisé comme amplificateur de signal) ou de relais électromécaniques ( il s'agit d'un organe électrique qui permet de distribuer la puissance depuis la partie commande). </p>
-					<p> Ils ont été crée par John von Neumann grâge à ses traveaux qui répondaient aux difficultés de la reprogrammation de calculateur comme l'ENIAC (il était nécessaire de recâbler le système afin de faire fonctionner un nouveau programme). Dans son architecture, il y une unité de conrole qui se charge de coordonner un proceseur (avec l'accès à une entré/sortis) aisni que la mémoire.
-					<h2 id="Le rôle">Le rôle </h2>
-					<p> Le processeur sert à l'échange de données entre composants informatiques, notamment en ce qui concerne le disque dur, la carte graphique ou la mémoire vive. Il permet ainsi d'interpréter, de coordonner et d'exécuter différents programmes. </p>
-					<h2 id="La localisation du CPU">La localisation du CPU </h2>
-					<p>Le CPU est un microprocesseur installé sur la carte mère de l'ordinateur. Si la carte mère est le cœur du PC, le CPU est, quant à lui, considéré comme le cerveau de l'ordinateur. Cette partie du guide d'achat nous emmène donc au cœur du microprocesseur ou CPU. </p>
-					<h2 id="La composition">La composition </h2>
-					<p> Le CPU est composé de: </p>
-					<ul>
-						<li> L'horloge: </li>
-						<p> L'horloge doit fournir un signal régulier afin de synchroniser tout le fonctionnement du proceseur. L'horloge est présente dans plusieurs proceseurs comme : </p>
-						<ul>
-							<li> Processeurs synchronomes:</li>
-							<p> C'est un circuit électronique numérique qui fonctionne à un rythme dicté par une horloge </p>
-							<li> Processeurs asynchrones: </li>
-							<p> C'est un circuit électronique numérique qui n'utilise pas de signal d'horloge global pour synchroniser ses différents éléments. </p>
-							<li> Processeurs autosynchrones: </li>
-							<p> Ce sont des types particuliers de processeurs qui n'ont pas d'orloge, d'impulsio de l'horloge mais qui est remplacé par une impulsion du dernier élément du processeur. </p>
-						</ul>
-						<li> Les registres: </li>
-						<p> Ce sont des petites mémoires internes très rapides, pouvant être accédées facilement. Un plus grand nombre de registres permettra au processeur d'être plus indépendant de la mémoire. La taille des registres dépend de l'architecture, mais est généralement de quelques octets et correspond au nombre de bit de l'architecture (un processeur 8 bits aura des registres d'un octet). </p>
-						<p> Il existe plusieurs registre comme: </p>
-						<ul> 
-							<li>L'accumulateur: </li>
-							<p> Il constitu la première partie de la structure de base du processeur. Il permet de stocké des données traité par l'unité de calcul arithmétique et logique (UAL) </p>
-							<li> Le compteur ordinal: </li>
-							<p> Il constitu la deuxième partie de la structure de base du processeur. Il permet de donné l'adresse mémoire de l'instruction en cours d'exécution ou de la suivante (en fonction de l'architecture). </p>
-							<li> Pointeur de pile: </li>
-							<p> Il sert à stocker l'adresse du sommet des piles, qui sont en fait des structures de données généralement utilisées pour gérer des appels de sous-programmes. </p>
-							<li> Registre d'instruction: </li>
-							<p> Il permet quant à lui de stocker l'instruction en cours de traitement. </p>
-							<li> Registre d'état: </li>
-							<p>  Il est composé de plusieurs bits, appelés drapeaux (flags), servant à stocker des informations concernant le résultat de la dernière instruction exécutée. </p>
-							<li> Registres généraux: </li>
-							<p> Il  servent à stocker les données allant être utilisées (ce qui permet d'économiser des allers-retours avec la mémoire). </p>
-						</ul>
-					</ul>
-					<h2 id="La classification du CPU">La classification du CPU </h2>
-					<p> Un processeur est défini par:</p>
-					<ul> 
-						<li> Son architecture (son comportement vu par le programme) est liée à: </li>
-						<ul>
-							<li> <p> Son jeu d'instructions (en anglais instruction set architecture, ISA)</p> </li>
-							<li> <p> La largeur de ses registres internes de manipulation de données (8, 16, 32, 64, 128) bits et leur utilisation </p> </li>
-							<li> <p> Les spécifications des entrées–sorties, de l'accès à la mémoire, etc. </p> </li>
-						</ul>
-						<li> Ses caractéristiques, variables même entre processeurs compatibles: </li>
-						<ul>
-							<li> <p> Sa microarchitecture </p></li>
-							<li> <p> La cadence de son horloge exprimée en mégahertz (MHz) ou gigahertz (GHz). Sa finesse de gravure exprimée en nanomètres (nm) </p></li>
-							<li> <p> Son nombre de cœurs de calcul </p> </li>
-						</ul>
-					</ul>
-					<p> On peut claser ces architectures en plusieurs grandes familles: </p>
-					<ul>
-						<li> CISC (complex instruction set computer): </li>
-						<p> Choix d'instructions aussi proches que possible d'un langage de haut niveau. </p>
-						<li> RISC (reduced instruction set computer): </li>
-						<p> Choix d'instructions plus simples et d'une structure permettant une exécution très rapide. </p>
-						<li> VLIW (very long instruction word): </li>
-						<p> Dénote une famille d'ordinateurs dotés d'un processeur à mot d'instruction très long (couramment supérieur à 128 bits). </p>
-						<li> DSP (digital signal processor): </li>
-						<p> Dans un souci d'optimisation, des processeurs spécialisés sont conçus et adaptés à certains types de calculs (3D, son, etc.) comme les DSP qui sont des processeurs spécialisés pour les calculs liés au traitement de signaux. </p>
-						<li> processeur softcore: </li>
-						<p> C'est un circuit logique programmable qui n'a plus du tout de fonction précablée contrairement à un DSP.
-					</ul>
-					<h2 id="Les opération du processeurs">Les opération du processeurs </h2>
-					<p> Le rôle fondamental de la plupart des processeur consiste à exécuter une série d'instructions stockées appelée programme. Les instructions et les données transmises au processeur sont exprimées en binaires (code machine) qui sont généralement stockées dans la mémoire. Le language le plus proche du code machine en restant lisible par des humains est le language d'assemblement ou assembleur. En revanche, l'informatique a développé toute une série de langages, dits de « bas niveau » (comme le Pascal, C, C++, Fortran, Ada, etc.), « haut niveau » (comme le python, java, etc.), destinés à simplifier l'écriture des programmes. </p>
-					<p> Les opérations décrites ici sont conformes à l'architecture de von Neumann. Le programme est représenté par une série d'instructions qui réalisent des opérations en liaison avec la mémoire vive de l'ordinateur. Il y a quatre étapes que presque toutes les architectures de von Neumann utilisent: </p>
-					<ul>
-						<li> Fetch: </li>
-						<p> La première étape, Fetch, permet de recherché une instruction dans la mémoire vive de l'ordianteur. L'emplacement dans la mémoire est déterminé par le compteur de programme (PC), qui stocke l'adresse de la prochaine instruction dans la mémoire de programme. Après qu'une instruction ait été recherchée, le PC est incrémenté par la longueur du mot d'instruction. </p>
-						<li> Decode: </li>
-						<p> La deuxième étape, Decode, permet de découper l'instruction en plusieurs parties telles qu'elles puissent être utilisées  par d'autres parties du processeur. La façon dont la valeur de l'instruction est interprétée est définie par le jeu d'instructions du processeur. Souvent, une partie d'une instruction, appelée opcode (code d'opération), indique l'opération à effectuer, par exemple une addition. </p>
-						<li> Execute: </li>
-						<p>La troisième étape, execute, permet de mettre en relation différentes parties du processeur pour réaliser l'opération souhaitée. Par exemple, pour une addition, l'unité arithmétique et logique (ALU) sera connectée à des entrées et une sortie. Les entrées contiennent les nombres à additionner et la sortie contient le résultat. </p>
-						<li> Writeback: </li>
-						<p> La dernière étape, writeback, permet d'écrire les résultats de l'étape d'exécution en mémoire. Très souvent, les résultats sont écrits dans un registre interne au processeur pour bénéficier de temps d'accès très courts pour les instructions suivantes. Parfois, les résultats sont écrits plus lentement dans la mémoire vive pour bénéficier de codages de nombres plus grands. </p>
-					</ul>
-					<h2 id="La vitesse du CPU">La vitesse du CPU </h2>
-					<p> La vitesse de traitement d'un processeur est encore parfois exprimée en IPS (instructions par seconde) ou en FLOPS (opérations à virgule flottante par seconde) pour l'unité de calcul en virgule flottante. Pourtant, aujourd'hui, les processeurs sont basés sur différentes architectures et techniques de parallélisation des traitements qui ne permettent plus de déterminer simplement leurs performances. Des programmes spécifiques d'évaluation des performances (Benchmarks) ont été mis au point pour obtenir des comparatifs des temps d'exécution de programmes réels. </p>
-				</div>
-				<div class="aside">
-					<h2> CPU: </h2>
-					
-						<img src="./assets/image/CPU-mini.jpg" alt="nsi";/>
-					
-					<p> Création: </p>
-					<ul>
-						<li> par John von Neumann</li>
-						<li> dans les années 1970 </li>
-					</ul>
-					<p> Type: </p>
-					<ul>
-						<li> processeur </li>
-					</ul>
-					<p> Composition: </p>
-					<ul>
-						<li> Architecture de processeur </li>
-						<li> cache du processeur </li>
-					</ul>
-				</div>
-		    </div>			
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./assets/css/page-CPU.css" />
+    <title>Spécialité NSI</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="image"
+        src="./assets/image/banniere_nsi_mini.jpg"
+        alt="nsi"
+        ;
+      />
+    </header>
 
-    </body>
+    <div class="container">
+      <div class="nav">
+        <h1 class="title">Sommaire<br /></h1>
+        <a class="sommaire" href="#L'histoire">-L'histoire</a><br />
+        <a class="sommaire" href="#Le rôle">-Le rôle</a><br />
+        <a class="sommaire" href="#La localisation du CPU"
+          >-La localisation du CPU</a
+        ><br />
+        <a class="sommaire" href="#La composition">-La composition</a><br />
+        <a class="sommaire" href="#La classification du CPU"
+          >-La classification du CPU</a
+        ><br />
+        <a class="sommaire" href="#Les opération du processeurs"
+          >-Les opération du processeurs</a
+        ><br />
+        <a class="sommaire" href="#La vitesse du CPU">-La vitesse du CPU</a
+        ><br />
+      </div>
+      <div class="article">
+        <h1>II- Qu'est ce qu'un CPU ?</h1>
+        <p>
+          Un CPU (en anglais : Central Processing Unit, en fraçais : Unité
+          Centrale de Traitement, UCT) ou processeur est un composant présent
+          dans beaucoup de dispositifs électronique qui exécute les insructions
+          machine des programmes informatiques. Avec la mémoire, c'est notamment
+          l'une des fonctions qui existent depuis les premiers ordinateurs. Un
+          processeur construit en un seul circuit intégré est
+          un microprocesseur.
+        </p>
+        <h2 id="L'histoire">L'histoire</h2>
+        <p>
+          Les premiers processeurs devait avoir une espace important, puisqu'ils
+          étaient construits à la base de tubes électronique (aussi appelé tube
+          à vide ou alors lampe, est un composant électronique actif, en
+          générale utilisé comme amplificateur de signal) ou de relais
+          électromécaniques ( il s'agit d'un organe électrique qui permet de
+          distribuer la puissance depuis la partie commande).
+        </p>
+        <p>
+          Ils ont été crée par John von Neumann grâge à ses traveaux qui
+          répondaient aux difficultés de la reprogrammation de calculateur comme
+          l'ENIAC (il était nécessaire de recâbler le système afin de faire
+          fonctionner un nouveau programme). Dans son architecture, il y une
+          unité de conrole qui se charge de coordonner un proceseur (avec
+          l'accès à une entré/sortis) aisni que la mémoire.
+        </p>
+        <h2 id="Le rôle">Le rôle</h2>
+        <p>
+          Le processeur sert à l'échange de données entre composants
+          informatiques, notamment en ce qui concerne le disque dur, la carte
+          graphique ou la mémoire vive. Il permet ainsi d'interpréter, de
+          coordonner et d'exécuter différents programmes.
+        </p>
+        <h2 id="La localisation du CPU">La localisation du CPU</h2>
+        <p>
+          Le CPU est un microprocesseur installé sur la carte mère de
+          l'ordinateur. Si la carte mère est le cœur du PC, le CPU est, quant à
+          lui, considéré comme le cerveau de l'ordinateur. Cette partie du guide
+          d'achat nous emmène donc au cœur du microprocesseur ou CPU.
+        </p>
+        <h2 id="La composition">La composition</h2>
+        <p>Le CPU est composé de:</p>
+        <ul>
+          <li>L'horloge:</li>
+          <p>
+            L'horloge doit fournir un signal régulier afin de synchroniser tout
+            le fonctionnement du proceseur. L'horloge est présente dans
+            plusieurs proceseurs comme :
+          </p>
+          <ul>
+            <li>Processeurs synchronomes:</li>
+            <p>
+              C'est un circuit électronique numérique qui fonctionne à un rythme
+              dicté par une horloge
+            </p>
+            <li>Processeurs asynchrones:</li>
+            <p>
+              C'est un circuit électronique numérique qui n'utilise pas
+              de signal d'horloge global pour synchroniser ses différents
+              éléments.
+            </p>
+            <li>Processeurs autosynchrones:</li>
+            <p>
+              Ce sont des types particuliers de processeurs qui n'ont pas
+              d'orloge, d'impulsio de l'horloge mais qui est remplacé par une
+              impulsion du dernier élément du processeur.
+            </p>
+          </ul>
+          <li>Les registres:</li>
+          <p>
+            Ce sont des petites mémoires internes très rapides, pouvant être
+            accédées facilement. Un plus grand nombre de registres permettra au
+            processeur d'être plus indépendant de la mémoire. La taille des
+            registres dépend de l'architecture, mais est généralement de
+            quelques octets et correspond au nombre de bit de l'architecture (un
+            processeur 8 bits aura des registres d'un octet).
+          </p>
+          <p>Il existe plusieurs registre comme:</p>
+          <ul>
+            <li>L'accumulateur:</li>
+            <p>
+              Il constitu la première partie de la structure de base du
+              processeur. Il permet de stocké des données traité par l'unité de
+              calcul arithmétique et logique (UAL)
+            </p>
+            <li>Le compteur ordinal:</li>
+            <p>
+              Il constitu la deuxième partie de la structure de base du
+              processeur. Il permet de donné l'adresse mémoire de l'instruction
+              en cours d'exécution ou de la suivante (en fonction de
+              l'architecture).
+            </p>
+            <li>Pointeur de pile:</li>
+            <p>
+              Il sert à stocker l'adresse du sommet des piles, qui sont en fait
+              des structures de données généralement utilisées pour gérer des
+              appels de sous-programmes.
+            </p>
+            <li>Registre d'instruction:</li>
+            <p>
+              Il permet quant à lui de stocker l'instruction en cours de
+              traitement.
+            </p>
+            <li>Registre d'état:</li>
+            <p>
+              Il est composé de plusieurs bits, appelés drapeaux (flags),
+              servant à stocker des informations concernant le résultat de la
+              dernière instruction exécutée.
+            </p>
+            <li>Registres généraux:</li>
+            <p>
+              Il servent à stocker les données allant être utilisées (ce qui
+              permet d'économiser des allers-retours avec la mémoire).
+            </p>
+          </ul>
+        </ul>
+        <h2 id="La classification du CPU">La classification du CPU</h2>
+        <p>Un processeur est défini par:</p>
+        <ul>
+          <li>
+            Son architecture (son comportement vu par le programme) est liée à:
+          </li>
+          <ul>
+            <li>
+              <p>
+                Son jeu d'instructions (en anglais instruction set architecture,
+                ISA)
+              </p>
+            </li>
+            <li>
+              <p>
+                La largeur de ses registres internes de manipulation
+                de données (8, 16, 32, 64, 128) bits et leur utilisation
+              </p>
+            </li>
+            <li>
+              <p>
+                Les spécifications des entrées–sorties, de l'accès à la mémoire,
+                etc.
+              </p>
+            </li>
+          </ul>
+          <li>
+            Ses caractéristiques, variables même entre processeurs compatibles:
+          </li>
+          <ul>
+            <li><p>Sa microarchitecture</p></li>
+            <li>
+              <p>
+                La cadence de son horloge exprimée en mégahertz (MHz) ou
+                gigahertz (GHz). Sa finesse de gravure exprimée en nanomètres
+                (nm)
+              </p>
+            </li>
+            <li><p>Son nombre de cœurs de calcul</p></li>
+          </ul>
+        </ul>
+        <p>On peut claser ces architectures en plusieurs grandes familles:</p>
+        <ul>
+          <li>CISC (complex instruction set computer):</li>
+          <p>
+            Choix d'instructions aussi proches que possible d'un langage de haut
+            niveau.
+          </p>
+          <li>RISC (reduced instruction set computer):</li>
+          <p>
+            Choix d'instructions plus simples et d'une structure permettant une
+            exécution très rapide.
+          </p>
+          <li>VLIW (very long instruction word):</li>
+          <p>
+            Dénote une famille d'ordinateurs dotés d'un processeur à mot
+            d'instruction très long (couramment supérieur à 128 bits).
+          </p>
+          <li>DSP (digital signal processor):</li>
+          <p>
+            Dans un souci d'optimisation, des processeurs spécialisés sont
+            conçus et adaptés à certains types de calculs (3D, son, etc.) comme
+            les DSP qui sont des processeurs spécialisés pour les calculs liés
+            au traitement de signaux.
+          </p>
+          <li>processeur softcore:</li>
+          <p>
+            C'est un circuit logique programmable qui n'a plus du tout de
+            fonction précablée contrairement à un DSP.
+          </p>
+        </ul>
+
+        <h2 id="Les opération du processeurs">Les opération du processeurs</h2>
+        <p>
+          Le rôle fondamental de la plupart des processeur consiste à exécuter
+          une série d'instructions stockées appelée programme. Les instructions
+          et les données transmises au processeur sont exprimées en binaires
+          (code machine) qui sont généralement stockées dans la mémoire. Le
+          language le plus proche du code machine en restant lisible par des
+          humains est le language d'assemblement ou assembleur. En revanche,
+          l'informatique a développé toute une série de langages, dits de « bas
+          niveau » (comme le Pascal, C, C++, Fortran, Ada, etc.), « haut
+          niveau » (comme le python, java, etc.), destinés à simplifier
+          l'écriture des programmes.
+        </p>
+        <p>
+          Les opérations décrites ici sont conformes à l'architecture de von
+          Neumann. Le programme est représenté par une série d'instructions qui
+          réalisent des opérations en liaison avec la mémoire vive de
+          l'ordinateur. Il y a quatre étapes que presque toutes les
+          architectures de von Neumann utilisent:
+        </p>
+        <ul>
+          <li>Fetch:</li>
+          <p>
+            La première étape, Fetch, permet de recherché une instruction dans
+            la mémoire vive de l'ordianteur. L'emplacement dans la mémoire est
+            déterminé par le compteur de programme (PC), qui stocke l'adresse de
+            la prochaine instruction dans la mémoire de programme. Après qu'une
+            instruction ait été recherchée, le PC est incrémenté par la longueur
+            du mot d'instruction.
+          </p>
+          <li>Decode:</li>
+          <p>
+            La deuxième étape, Decode, permet de découper l'instruction en
+            plusieurs parties telles qu'elles puissent être utilisées par
+            d'autres parties du processeur. La façon dont la valeur de
+            l'instruction est interprétée est définie par le jeu d'instructions
+            du processeur. Souvent, une partie d'une instruction,
+            appelée opcode (code d'opération), indique l'opération à effectuer,
+            par exemple une addition.
+          </p>
+          <li>Execute:</li>
+          <p>
+            La troisième étape, execute, permet de mettre en relation
+            différentes parties du processeur pour réaliser l'opération
+            souhaitée. Par exemple, pour une addition, l'unité arithmétique et
+            logique (ALU) sera connectée à des entrées et une sortie. Les
+            entrées contiennent les nombres à additionner et la sortie contient
+            le résultat.
+          </p>
+          <li>Writeback:</li>
+          <p>
+            La dernière étape, writeback, permet d'écrire les résultats de
+            l'étape d'exécution en mémoire. Très souvent, les résultats sont
+            écrits dans un registre interne au processeur pour bénéficier de
+            temps d'accès très courts pour les instructions suivantes. Parfois,
+            les résultats sont écrits plus lentement dans la mémoire vive pour
+            bénéficier de codages de nombres plus grands.
+          </p>
+        </ul>
+        <h2 id="La vitesse du CPU">La vitesse du CPU</h2>
+        <p>
+          La vitesse de traitement d'un processeur est encore parfois exprimée
+          en IPS (instructions par seconde) ou en FLOPS (opérations à virgule
+          flottante par seconde) pour l'unité de calcul en virgule flottante.
+          Pourtant, aujourd'hui, les processeurs sont basés sur différentes
+          architectures et techniques de parallélisation des traitements qui ne
+          permettent plus de déterminer simplement leurs performances. Des
+          programmes spécifiques d'évaluation des performances (Benchmarks) ont
+          été mis au point pour obtenir des comparatifs des temps d'exécution de
+          programmes réels.
+        </p>
+      </div>
+      <div class="aside">
+        <h2>CPU:</h2>
+
+        <img src="./assets/image/CPU-mini.jpg" alt="nsi" ; />
+
+        <p>Création:</p>
+        <ul>
+          <li>par John von Neumann</li>
+          <li>dans les années 1970</li>
+        </ul>
+        <p>Type:</p>
+        <ul>
+          <li>processeur</li>
+        </ul>
+        <p>Composition:</p>
+        <ul>
+          <li>Architecture de processeur</li>
+          <li>cache du processeur</li>
+        </ul>
+		<div class="return">
+			<a href="#">Retour en haut ↑</a>
+		</div>
+      </div>
+    </div>
+  </body>
 </html>
