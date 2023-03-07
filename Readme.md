@@ -3,7 +3,7 @@
 
 ## Utilisation : 
     
-    git clone https://github.com/anto95240/CPU-GPU.git 
+    ```git clone https://github.com/anto95240/CPU-GPU.git ```
     
     puis lancer le lancer (en appuyant sur GO Live(extention Live Server, v5.7.9)) 
     
