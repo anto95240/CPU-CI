@@ -1,5 +1,9 @@
 /* Eléments principaux de la page */
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
   font-family: "Trebuchet MS", Arial, sans-serif;
   color: rgb(58, 168, 185);
